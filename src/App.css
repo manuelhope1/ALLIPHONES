@@ -13,6 +13,7 @@ body {
   position: fixed;
   inset: 0px;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 .navv {
@@ -52,13 +53,13 @@ body {
 }
 
 .devinfol {
-  height: 80vh;
+  min-height: 80vh;
   color: white;
   overflow-y: scroll;
 }
 
 .devinfor {
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .devinfo {
