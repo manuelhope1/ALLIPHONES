@@ -6,10 +6,10 @@ const Productinfo = () => {
   const { id } = useParams();
   return (
     <Container>
-      {DeviceInfos.map((info, index) => {
-        if (id === info.id)
+      {DeviceInfos.map((info) => {
+        if (id === info.id) {
           return (
-            <Row key={index}>
+            <Row key={info.id}>
               <Col md="3" lg="2" className="devinfol">
                 <h5 className="devvv">Device Specifications</h5>
                 <Table striped="columns" variant="dark">
@@ -123,6 +123,9 @@ const Productinfo = () => {
               </Col>
             </Row>
           );
+        } else {
+          return null;
+        }
       })}
     </Container>
   );

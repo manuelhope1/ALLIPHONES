@@ -7,7 +7,6 @@ const Device = (props) => {
       <Card className="cardbody">
         <Card.Img variant="top" src={img1} className="img-card" />
         <Card.Body style={{ textAlign: "center" }}>
-          <Card.Title>jjnn</Card.Title>
           <Button variant="primary">View Details</Button>
         </Card.Body>
       </Card>

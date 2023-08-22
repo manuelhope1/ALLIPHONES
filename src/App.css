@@ -6,13 +6,6 @@
 }
 body {
   background-image: url("./assets/back5.svg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  position: fixed;
-  inset: 0px;
-  overflow: hidden;
   min-height: 100vh;
 }
 
@@ -60,6 +53,7 @@ body {
 
 .devinfor {
   min-height: 80vh;
+  overflow-y: scroll;
 }
 
 .devinfo {
